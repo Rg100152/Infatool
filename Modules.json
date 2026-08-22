@@ -1,0 +1,57 @@
+{
+  "system": true,
+  "hardware": true,
+  "network": true,
+  "storage": true,
+  "security": true,
+  "module_settings": {
+    "system": {
+      "enabled": true,
+      "description": "System information collection",
+      "priority": 1,
+      "timeout": 5,
+      "collect_android_properties": true,
+      "collect_environment_variables": true,
+      "collect_user_info": true
+    },
+    "hardware": {
+      "enabled": true,
+      "description": "Hardware information collection",
+      "priority": 2,
+      "timeout": 10,
+      "collect_cpu_info": true,
+      "collect_gpu_info": true,
+      "collect_ram_info": true,
+      "collect_soc_info": true
+    },
+    "network": {
+      "enabled": true,
+      "description": "Network information collection",
+      "priority": 3,
+      "timeout": 10,
+      "collect_interfaces": true,
+      "collect_routes": true,
+      "collect_dns": true,
+      "collect_mac_addresses": true
+    },
+    "storage": {
+      "enabled": true,
+      "description": "Storage information collection",
+      "priority": 4,
+      "timeout": 10,
+      "collect_mounts": true,
+      "collect_usage": true,
+      "collect_storage_type": true
+    },
+    "security": {
+      "enabled": true,
+      "description": "Security configuration collection",
+      "priority": 5,
+      "timeout": 5,
+      "check_root_status": true,
+      "check_selinux": true,
+      "check_secure_boot": true,
+      "check_firewall": true
+    }
+  }
+}
