@@ -1,0 +1,293 @@
+{
+  "tool": "INFATOOL",
+  "version": "1.0",
+  "environment": {
+    "platform": "linux",
+    "environment": "TERMUX"
+  },
+  "scan_info": {
+    "scan_time": "2024-01-15T10:30:45.123456",
+    "scan_type": "full",
+    "duration_seconds": 3.45,
+    "status": "COMPLETED"
+  },
+  "system": {
+    "operating_system": {
+      "name": "Linux",
+      "distribution": "Termux (Android)",
+      "version": "NOT AVAILABLE",
+      "kernel_version": "4.14.190",
+      "kernel_name": "Linux",
+      "build": "NOT AVAILABLE"
+    },
+    "environment": {
+      "type": "TERMUX",
+      "is_termux": true,
+      "platform": "linux",
+      "python_version": "3.11.2",
+      "hostname": "localhost",
+      "architecture": "aarch64",
+      "processor": "aarch64"
+    },
+    "user": {
+      "username": "u0_a123",
+      "uid": 10123,
+      "gid": 10123,
+      "home": "/data/data/com.termux/files/home",
+      "shell": "/data/data/com.termux/files/usr/bin/bash",
+      "is_root": false
+    },
+    "runtime": {
+      "uptime": "2d 4h 30m",
+      "current_time": "2024-01-15T10:30:45.123456",
+      "boot_time": "2024-01-13T06:00:45"
+    },
+    "android": {
+      "product.model": "SM-G991B",
+      "product.manufacturer": "samsung",
+      "build.version.release": "13",
+      "build.version.sdk": "33"
+    }
+  },
+  "hardware": {
+    "cpu": {
+      "model": "ARMv8 Processor rev 1",
+      "vendor": "ARM",
+      "architecture": "aarch64",
+      "cores": 8,
+      "threads": 8,
+      "frequency_mhz": "1805.0000",
+      "features": [
+        "fp",
+        "asimd",
+        "evtstrm",
+        "aes",
+        "pmull",
+        "sha1",
+        "sha2",
+        "crc32"
+      ],
+      "hardware": "Exynos 2100",
+      "revision": "1"
+    },
+    "gpu": {
+      "status": "AVAILABLE",
+      "model": "Mali-G78 MP14",
+      "driver": "NOT AVAILABLE",
+      "source": "android-property"
+    },
+    "ram": {
+      "total": "7.3 GB",
+      "available": "3.2 GB",
+      "used": "4.1 GB",
+      "free": "1.8 GB",
+      "swap_total": "4.0 GB",
+      "swap_free": "3.5 GB",
+      "buffers": "156.2 MB",
+      "cached": "1.6 GB"
+    },
+    "soc": {
+      "status": "AVAILABLE",
+      "model": "Exynos 2100",
+      "manufacturer": "Samsung",
+      "revision": "1"
+    },
+    "device": {
+      "manufacturer": "samsung",
+      "model": "SM-G991B",
+      "product": "o1sxeea"
+    },
+    "architecture": {
+      "machine": "aarch64",
+      "processor": "aarch64",
+      "platform": "Linux-4.14.190-aarch64-with-libc"
+    },
+    "timestamp": "2024-01-15T10:30:45.123456"
+  },
+  "network": {
+    "hostname": {
+      "hostname": "localhost",
+      "fqdn": "localhost",
+      "ip_address": "127.0.0.1"
+    },
+    "interfaces": [
+      {
+        "name": "lo",
+        "type": "loopback",
+        "status": "UP",
+        "mac": "00:00:00:00:00:00",
+        "ipv4": [
+          {
+            "address": "127.0.0.1",
+            "netmask": "255.0.0.0",
+            "broadcast": "NOT AVAILABLE"
+          }
+        ],
+        "ipv6": ["::1"],
+        "flags": ["LOOPBACK", "UP", "LOWER_UP"]
+      },
+      {
+        "name": "wlan0",
+        "type": "ether",
+        "status": "UP",
+        "mac": "02:00:00:00:00:00",
+        "ipv4": [
+          {
+            "address": "192.168.1.100",
+            "netmask": "255.255.255.0",
+            "broadcast": "192.168.1.255"
+          }
+        ],
+        "ipv6": ["fe80::200:ff:fe00:0"],
+        "flags": ["BROADCAST", "MULTICAST", "UP", "LOWER_UP"]
+      }
+    ],
+    "interface_count": 2,
+    "active_interfaces": 2,
+    "routing": [
+      {
+        "type": "route",
+        "destination": "default via 192.168.1.1 dev wlan0"
+      }
+    ],
+    "dns": {
+      "nameservers": ["192.168.1.1", "8.8.8.8"],
+      "search_domains": ["local"],
+      "config_file": "/etc/resolv.conf"
+    },
+    "loopback": {
+      "status": "UP",
+      "ipv4": "127.0.0.1",
+      "ipv6": "::1"
+    },
+    "listening_ports": [],
+    "timestamp": "2024-01-15T10:30:45.123456"
+  },
+  "storage": {
+    "filesystems": {
+      "supported": ["ext4", "vfat", "f2fs"],
+      "nodev_supported": ["proc", "sysfs", "tmpfs"],
+      "count": 3
+    },
+    "mounts": [
+      {
+        "device": "/dev/root",
+        "mount_point": "/",
+        "filesystem": "ext4",
+        "options": ["ro", "relatime"]
+      }
+    ],
+    "mount_count": 1,
+    "disk_usage": [
+      {
+        "mount_point": "/",
+        "filesystem": "ext4",
+        "device": "/dev/root",
+        "total": "256.0 GB",
+        "total_bytes": 274877906944,
+        "used": "94.5 GB",
+        "used_bytes": 101468602368,
+        "free": "162.0 GB",
+        "free_bytes": 173946175488,
+        "available": "162.0 GB",
+        "available_bytes": 173946175488,
+        "usage_percent": 36.91
+      }
+    ],
+    "storage_type": {
+      "status": "AVAILABLE",
+      "type": "eMMC/UFS (Android)",
+      "rotational": "NO",
+      "model": "exynos2100"
+    },
+    "inode_info": [],
+    "swap": {
+      "total": "4.0 GB",
+      "used": "500.0 MB",
+      "free": "3.5 GB",
+      "devices": []
+    },
+    "summary": {
+      "total_storage": "256.0 GB",
+      "total_storage_bytes": 274877906944,
+      "used_storage": "94.5 GB",
+      "used_storage_bytes": 101468602368,
+      "free_storage": "162.0 GB",
+      "free_storage_bytes": 173946175488,
+      "usage_percent": 36.91
+    },
+    "timestamp": "2024-01-15T10:30:45.123456"
+  },
+  "security": {
+    "user": {
+      "is_root": false,
+      "uid": 10123,
+      "gid": 10123,
+      "username": "u0_a123",
+      "has_sudo": "NO",
+      "sudo_version": "NOT AVAILABLE"
+    },
+    "selinux": {
+      "status": "ENABLED",
+      "enabled": "YES",
+      "mode": "ENFORCING",
+      "policy": "NOT AVAILABLE"
+    },
+    "secure_boot": {
+      "status": "NOT APPLICABLE",
+      "enabled": "NOT APPLICABLE",
+      "platform": "ANDROID"
+    },
+    "android_security": {
+      "status": "AVAILABLE",
+      "selinux_mode": "ENFORCING",
+      "verified_boot": "green",
+      "dm_verity": "enforcing",
+      "encryption": "encrypted",
+      "debug_mode": "DISABLED",
+      "root_detected": "NO",
+      "bootloader_unlocked": "NO"
+    },
+    "firewall": {
+      "status": "NOT AVAILABLE",
+      "type": "NOT AVAILABLE",
+      "rules": "NOT AVAILABLE",
+      "active": "NOT AVAILABLE"
+    },
+    "file_permissions": {
+      "status": "AVAILABLE",
+      "files": [
+        {
+          "path": "/etc/passwd",
+          "permissions": "0o644",
+          "owner": "root",
+          "group": "root"
+        }
+      ]
+    },
+    "debug_environment": {
+      "status": "AVAILABLE",
+      "python_debug": "DISABLED",
+      "developer_mode": "DISABLED",
+      "debugging_tools": [],
+      "environment_indicators": []
+    },
+    "summary": {
+      "root_status": "NOT DETECTED",
+      "selinux_status": "ENFORCING",
+      "firewall_status": "UNKNOWN",
+      "secure_boot": "NOT APPLICABLE"
+    },
+    "timestamp": "2024-01-15T10:30:45.123456"
+  },
+  "summary": {
+    "total_modules": 5,
+    "successful_modules": 5,
+    "failed_modules": 0,
+    "warnings": [],
+    "scan_duration_seconds": 3.45,
+    "environment": "TERMUX",
+    "platform": "linux",
+    "architecture": "aarch64"
+  }
+}
