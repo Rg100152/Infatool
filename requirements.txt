@@ -1,0 +1,40 @@
+# INFATOOL - System Intelligence CLI
+# Python 3 Dependencies
+# Version 1.0
+
+# Core Python Standard Library (No installation required)
+# These modules are included with Python 3:
+# - os
+# - sys
+# - platform
+# - json
+# - socket
+# - subprocess
+# - shutil
+# - pathlib
+# - datetime
+# - getpass
+# - threading
+# - time
+
+# No external dependencies required for Version 1.0
+# INFATOOL uses only Python standard library modules
+# to maintain maximum compatibility and lightweight operation.
+
+# Optional packages for enhanced functionality (not required):
+# These can be installed for additional features in future versions.
+
+# For better terminal colors (optional):
+# colorama==0.4.6
+
+# For advanced network information (optional):
+# psutil==5.9.5
+
+# For hardware detection (optional):
+# py-cpuinfo==9.0.0
+
+# For system information (optional):
+# distro==1.8.0
+
+# Note: INFATOOL is designed to work with zero external dependencies.
+# All core functionality uses Python's standard library.
